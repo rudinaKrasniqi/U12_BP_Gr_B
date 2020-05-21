@@ -38,6 +38,9 @@
             this.btnNrShkronjaTeVogla = new System.Windows.Forms.Button();
             this.btnCapitalizeWord = new System.Windows.Forms.Button();
             this.btnKerko = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTeksti
@@ -143,18 +146,50 @@
             this.btnKerko.UseVisualStyleBackColor = true;
             this.btnKerko.Click += new System.EventHandler(this.btnKerko_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(432, 451);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Kerko";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(436, 478);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(188, 29);
+            this.textBox1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(643, 464);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 43);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Kerko";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnKerko_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 569);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnKerko);
             this.Controls.Add(this.btnCapitalizeWord);
             this.Controls.Add(this.btnNrShkronjaTeVogla);
             this.Controls.Add(this.btnNrShkronjaTeMedha);
             this.Controls.Add(this.btnNrNumrave);
             this.Controls.Add(this.btnNrShkronja);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtKerko);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTeksti);
             this.Controls.Add(this.lblKerko);
             this.Controls.Add(this.lblTeksti);
@@ -177,6 +212,9 @@
         private System.Windows.Forms.Button btnNrShkronjaTeVogla;
         private System.Windows.Forms.Button btnCapitalizeWord;
         private System.Windows.Forms.Button btnKerko;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
